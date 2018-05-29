@@ -11,7 +11,7 @@ var products = [
   { referenceNumber: 0008, name: "Darkness in Yoga", price: 10 }
 ]
 // Declare `shoppingCart`, something where you will be storing all products that the user buys.
-var shoppingCart
+var shoppingCart = ""
 // Declare `products`, the different that you will be selling under each of the departments.
 
 var shopFromStore =  function () {
