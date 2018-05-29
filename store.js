@@ -1,7 +1,17 @@
 // TODO:
 // var products = []
-var products = []
+var products = [
+  { referenceNumber: 0001, name: "Is it worth it?", price: 10 },
+  { referenceNumber: 0002, name: "Get over it", price: 20 },
+  { referenceNumber: 0003, name: "Candle", price: 30 },
+  { referenceNumber: 0004, name: "backpain cushion", price: 30 },
+  { referenceNumber: 0005, name: "Vegan Yoga T-shirt", price: 200 },
+  { referenceNumber: 0006, name: "The plush yoga pants", price: 300 },
+  { referenceNumber: 0007, name: "Bring Yoga out of your Life", price: 30 },
+  { referenceNumber: 0008, name: "Darkness in Yoga", price: 10 }
+]
 // Declare `shoppingCart`, something where you will be storing all products that the user buys.
+var shoppingCart
 // Declare `products`, the different that you will be selling under each of the departments.
 
 var shopFromStore =  function () {
